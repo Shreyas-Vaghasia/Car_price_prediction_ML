@@ -22,9 +22,9 @@
 
     <body>
 
-        <div style="color:blueviolet">
+        <div style="color:rgb(154, 95, 209)">
             <form action="{{ url_for('predict')}}" method="post">
-                <h1 class='jumbotron' style="color: chartreuse;">  Predictive analysis</h1>
+                <h1 class='jumbotron' style="color: salmon;"> Predictive analysis</h1>
                 <hr>
                 <h3>Year of purchase? </h3>
                 <input id="first" name="Year" type="number ">
@@ -60,7 +60,7 @@
 
 
             <br><br>
-            <h3 class='jumbotron '>{{ prediction_text }}<h3>
+            <h3 class='jumbotron'>{{ prediction_text }}<h3>
         </div>
 
 
@@ -68,7 +68,9 @@
 
         <style>
             body {
-                background-color: khaki;
+                background-color: rgba(240, 230, 140, 0.952);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
                 text-align: center;
                 padding: 0px;
             }
@@ -173,6 +175,7 @@
                 font-size: 20px;
                 text-align: center;
             }
+            
         </style>
     </body>
 
